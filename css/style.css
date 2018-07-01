@@ -463,6 +463,24 @@ pre, code {
     padding: 0 0 0 27px;
   }
 }
+.post-content .presenter-container {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.post-content .presenter-container > div {
+  width: 128px;
+  margin: 10px;
+  text-align: center;
+}
+
+.post-content .presenter-container .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
 /* List footer
 ------------------------------ */
 .pagination {
