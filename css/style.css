@@ -75,9 +75,12 @@ pre, code {
   line-height: 65px;
   background: #fff;
 }
+.header .title img {
+  height: 46px;
+}
 .title a {
   display: block;
-  margin-top: 18px;
+  margin-top: 9px;
   font-size: 28px;
   font-weight: 700;
   line-height: 35px;

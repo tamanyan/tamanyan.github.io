@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bangkok Cast</title>
-    <link>http://bkkcast.me/</link>
-    <description>Recent content on Bangkok Cast</description>
+    <title>bkkcast</title>
+    <link>https://bkkcast.me/</link>
+    <description>Recent content on bkkcast</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
     <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://bkkcast.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bkkcast.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>vol.1 Bangkok Cast 始めます</title>
-      <link>http://bkkcast.me/bkk_cast_1/</link>
+      <title>vol.1 bkkcast 始めます</title>
+      <link>https://bkkcast.me/bkk_cast_1/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://bkkcast.me/bkk_cast_1/</guid>
+      <guid>https://bkkcast.me/bkk_cast_1/</guid>
       <description>自己紹介 なぜバンコクにいるのか？ エンジニア時事ネタ Firebase 年収800万 ~ 1000万 XXXXXXXXXXXXXXXXXXXX</description>
-    </item>
-    
-    <item>
-      <title>vol.2 Bangkok Cast 始めます</title>
-      <link>http://bkkcast.me/bkk_cast_2/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://bkkcast.me/bkk_cast_2/</guid>
-      <description></description>
     </item>
     
   </channel>

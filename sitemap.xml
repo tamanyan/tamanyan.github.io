@@ -3,28 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bkkcast.me/bkk_cast_1/</loc>
+    <loc>https://bkkcast.me/bkk_cast_1/</loc>
     <lastmod>2018-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://bkkcast.me/bkk_cast_2/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://bkkcast.me/</loc>
-    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
+    <loc>https://bkkcast.me/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bkkcast.me/categories/</loc>
+    <loc>https://bkkcast.me/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://bkkcast.me/tags/</loc>
+    <loc>https://bkkcast.me/</loc>
+    <lastmod>2018-07-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
