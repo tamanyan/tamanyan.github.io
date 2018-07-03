@@ -69,18 +69,19 @@ pre, code {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 65px;
+  height: 64px;
   padding-left: 30px;
   padding-right: 30px;
   line-height: 65px;
   background: #fff;
 }
 .header .title img {
-  height: 46px;
+  height: 32px;
+  width: 148px;
 }
 .title a {
   display: block;
-  margin-top: 9px;
+  margin-top: 16px;
   font-size: 28px;
   font-weight: 700;
   line-height: 35px;
@@ -273,7 +274,7 @@ pre, code {
   line-height: 1;
 }
 .first-entry .post-title {
-  font-size: 50px;
+  font-size: 40px;
 }
 .post-summary {
   margin-top: 10px;
@@ -312,7 +313,7 @@ pre, code {
 }
 /* Post view */
 .post-view .post-title {
-  font-size: 45px;
+  font-size: 40px;
 }
 .post-content {
   padding-top: 30px;
@@ -462,6 +463,24 @@ pre, code {
     margin: 0 0 0 -30px;
     padding: 0 0 0 27px;
   }
+}
+.post-content .presenter-container {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.post-content .presenter-container > div {
+  width: 128px;
+  margin: 10px;
+  text-align: center;
+}
+
+.post-content .presenter-container .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 /* List footer
 ------------------------------ */
