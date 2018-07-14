@@ -585,14 +585,17 @@ a.share-btn:hover {
 
 .fa-twitter {
   background-image: url(../svg/twitter.svg);
+  right: 3px;
 }
 
 .fa-hatena {
   background-image: url(../svg/hatena.svg);
+  right: 3px;
 }
 
 .fa-facebook {
   background-image: url(../svg/facebook.svg);
+  right: 3px;
 }
 
 /* CircularStd @font-face kit */
