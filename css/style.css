@@ -356,6 +356,12 @@ pre, code {
 .post-content a {
   border-bottom: 1px solid rgba(0, 0, 0, .8);
 }
+
+.notice {
+  color: #d35400;
+  border-bottom: 1px solid #d35400cc !important;
+}
+
 .post-content p,
 .post-content ul,
 .post-content ol,
