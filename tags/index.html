@@ -113,6 +113,18 @@
     }, false);
   }
 </script>
+
+<script>
+  Array.prototype.forEach.call(document.getElementsByClassName("jump"), function(elements) {
+    elements.addEventListener("click", function(e) {
+      try {
+        var target = document.getElementById('player');
+        target.currentTime = parseInt(e.target.hash.replace("#", ""));
+      } catch (e) { }
+    });
+  });
+</script>
+
 </body>
 </html>
 

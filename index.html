@@ -84,6 +84,21 @@
 <article class="post first-entry">
   <header class="post-header">
     <span class="welcome-emoji">🇹🇭</span>
+    <h2 class="post-title">3. laiso</h2>
+  </header>
+  <p class="post-summary">@tamanyan55 @tejitak @laiso bkkcast はフォードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き @laiso さんの自己紹介 (1:05) @laisoの</p>
+  <footer class="post-footer">
+    <p class="post-meta">2018.7.29</p>
+  </footer>
+  <a class="post-link" href="https://bkkcast.me/003/"></a>
+</article>
+
+
+
+
+<article class="post post-entry">
+  <header class="post-header">
+    
     <h2 class="post-title">2. セブの IT 留学ってどうなの？</h2>
   </header>
   <p class="post-summary">@tamanyan55 @tejitak eriko.ichinohe bkkcast はフォードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き エリコ先生の自己紹介 NexSeed のエンジニ</p>
@@ -139,6 +154,18 @@
     }, false);
   }
 </script>
+
+<script>
+  Array.prototype.forEach.call(document.getElementsByClassName("jump"), function(elements) {
+    elements.addEventListener("click", function(e) {
+      try {
+        var target = document.getElementById('player');
+        target.currentTime = parseInt(e.target.hash.replace("#", ""));
+      } catch (e) { }
+    });
+  });
+</script>
+
 </body>
 </html>
 
