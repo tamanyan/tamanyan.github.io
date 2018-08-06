@@ -2,13 +2,13 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
 
 <channel>
-  <title>Tags on bkkcast</title>
+  <title>bkkcast</title>
   <link>https://bkkcast.me/tags/</link>
   <language>ja</language>
   <copyright>bkkcast</copyright>
   <itunes:subtitle></itunes:subtitle>
   <itunes:author>bkkcast</itunes:author>
-  <itunes:summary></itunes:summary>
+  <itunes:summary>バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います</itunes:summary>
 
   <description>バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います</description>
   <itunes:owner>
