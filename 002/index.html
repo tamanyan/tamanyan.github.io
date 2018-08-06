@@ -15,8 +15,6 @@
   <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelementplayer.css" />
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelement-and-player.js"></script>
   <link href="/css/style.css" rel="stylesheet">
   
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -109,7 +107,7 @@
 </div>
 
 <div class="podcasts-listen-badge">
-  <a href="itpc://bkkcast.me/feed.xml"><img src="/svg/podcasts_listen_badge.svg"/></a>
+  <a href="podcast://bkkcast.me/feed.xml"><img src="/svg/podcasts_listen_badge.svg"/></a>
 </div>
 
   <div class="post-content">
@@ -186,6 +184,33 @@
   
   
 </article>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelement-and-player.js"></script>
+<script>
+  Array.prototype.forEach.call(document.getElementsByClassName("jump"), function(elements) {
+    elements.addEventListener("click", function(e) {
+      try {
+        var target = document.getElementById('player');
+        target.currentTime = parseInt(e.target.hash.replace("#", ""));
+      } catch (e) { }
+    });
+  });
+</script>
+
+<script>
+  window.onload = function() {
+    var ua = navigator.userAgent
+    var isIOS = ua.indexOf("iPhone") >= 0
+      || ua.indexOf("iPad") >= 0
+      || navigator.userAgent.indexOf("iPod") >= 0
+
+    if (isIOS) {
+      document.querySelector(".podcasts-listen-badge").style.display = 'block';
+    }
+  }
+</script>
+
 </main>
 <footer class="footer">
   <span>&copy; 2018 bkkcast 🎉</span>
@@ -213,17 +238,6 @@
       $body.classList.toggle('noscroll');
     }, false);
   }
-</script>
-
-<script>
-  Array.prototype.forEach.call(document.getElementsByClassName("jump"), function(elements) {
-    elements.addEventListener("click", function(e) {
-      try {
-        var target = document.getElementById('player');
-        target.currentTime = parseInt(e.target.hash.replace("#", ""));
-      } catch (e) { }
-    });
-  });
 </script>
 
 </body>
