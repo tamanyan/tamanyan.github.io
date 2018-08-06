@@ -8,8 +8,8 @@
   
   <title>Posts - bkkcast</title>
   
-  <meta name="description" content="バンコクで働くエンジニアを集めて、バンコクの生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います。">
-  <meta name="author" content="">
+  <meta name="description" content="バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います">
+  <meta name="author" content="bkkcast">
   
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
   <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
   <link rel="alternate" type="application/atom+xml" href="/index.xml" title="bkkcast">
   
   <meta name="og:title" content="Categories" />
-  <meta name="og:description" content="バンコクで働くエンジニアを集めて、バンコクの生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います。" />
+  <meta name="og:description" content="バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います" />
   <meta name="og:image" content="https://bkkcast.me/img/eyecatch.png" />
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://bkkcast.me/categories/" />
@@ -37,7 +37,7 @@
   
   <meta property="og:url" content="https://bkkcast.me/categories/" />
   <meta property="og:title" content="Categories" />
-  <meta property="og:description" content="バンコクで働くエンジニアを集めて、バンコクの生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います。" />
+  <meta property="og:description" content="バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います" />
   <meta property="og:image" content="https://bkkcast.me/img/eyecatch.png" />
   <meta property="og:type" content="article" />
   
@@ -78,7 +78,7 @@
 
 <section>
   <div class="explaination">
-    <p class="title">バンコクで働くエンジニアを集めて、バンコクの生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います。</h2>
+    <p class="title">バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います。</h2>
   </div>
 
 
@@ -112,6 +112,18 @@
     }, false);
   }
 </script>
+
+<script>
+  Array.prototype.forEach.call(document.getElementsByClassName("jump"), function(elements) {
+    elements.addEventListener("click", function(e) {
+      try {
+        var target = document.getElementById('player');
+        target.currentTime = parseInt(e.target.hash.replace("#", ""));
+      } catch (e) { }
+    });
+  });
+</script>
+
 </body>
 </html>
 

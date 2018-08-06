@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+<channel>
+  <title>bkkcast on bkkcast</title>
+  <link>https://bkkcast.me/</link>
+  <language>ja</language>
+  <copyright>bkkcast</copyright>
+  <itunes:subtitle></itunes:subtitle>
+  <itunes:author>bkkcast</itunes:author>
+  <itunes:summary></itunes:summary>
+
+  <description>バンコクを中心として、海外で働くエンジニアを集めて、生活事情、最近エンジニア界隈で話題になったニュースなどについて話し合います</description>
+  <itunes:owner>
+    <itunes:name>bkkcast</itunes:name>
+    <itunes:email></itunes:email>
+  </itunes:owner>
+  <itunes:owner>
+    <itunes:name>bkkcast</itunes:name>
+    <itunes:email></itunes:email>
+  </itunes:owner>
+  <itunes:image href="https://bkkcast.me/img/eyecatch.png" />
+  <itunes:category text="Talk">
+  </itunes:category>
+
+  
+  
+  <item>
+    <title>5. (収録中に交通事故！？) 個人ゲーム開発者がバンコクのスタートアップエンジニアに転身</title>
+    <itunes:author>bkkcast</itunes:author>
+    <itunes:summary>※ 今回は外の収録のためノイズが酷くなっています。申し訳ございません。 @tamanyan55 @tejitak miyata bkkcast はフィードバックを積極的に受け付けています、聞いてみたいことがあ</itunes:summary>
+    <enclosure url="https://bkkcast.me/mp3/20180805.mp3" length="" type="audio/mp3" />
+    <guid>https://bkkcast.me/005/</guid>
+    <pubDate>2018-08-05 00:00:00 &#43;0000 UTC</pubDate>
+    <itunes:duration></itunes:duration>
+    <itunes:keywords>
+    </itunes:keywords>
+  </item>
+  
+  <item>
+    <title>4. シリコンバレーでグリーンカードを取るまでの道</title>
+    <itunes:author>bkkcast</itunes:author>
+    <itunes:summary>@tamanyan55 @tejitak @mihiguch bkkcast はフィードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き @mihiguch さんの自己紹介 (0:28) 3 年前の 7 月の</itunes:summary>
+    <enclosure url="https://bkkcast.me/mp3/20180731.mp3" length="" type="audio/mp3" />
+    <guid>https://bkkcast.me/004/</guid>
+    <pubDate>2018-07-31 00:00:00 &#43;0000 UTC</pubDate>
+    <itunes:duration></itunes:duration>
+    <itunes:keywords>
+    </itunes:keywords>
+  </item>
+  
+  <item>
+    <title>3. laiso</title>
+    <itunes:author>bkkcast</itunes:author>
+    <itunes:summary>@tamanyan55 @tejitak @laiso bkkcast はフィードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き @laiso さんの自己紹介 (1:05) @laisoの</itunes:summary>
+    <enclosure url="https://bkkcast.me/mp3/20180729.mp3" length="" type="audio/mp3" />
+    <guid>https://bkkcast.me/003/</guid>
+    <pubDate>2018-07-29 00:00:00 &#43;0000 UTC</pubDate>
+    <itunes:duration></itunes:duration>
+    <itunes:keywords>
+    </itunes:keywords>
+  </item>
+  
+  <item>
+    <title>2. セブの IT 留学ってどうなの？</title>
+    <itunes:author>bkkcast</itunes:author>
+    <itunes:summary>@tamanyan55 @tejitak eriko.ichinohe bkkcast はフィードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き エリコ先生の自己紹介 NexSeed のエンジニ</itunes:summary>
+    <enclosure url="https://bkkcast.me/mp3/20180722.mp3" length="" type="audio/mp3" />
+    <guid>https://bkkcast.me/002/</guid>
+    <pubDate>2018-07-22 00:00:00 &#43;0000 UTC</pubDate>
+    <itunes:duration></itunes:duration>
+    <itunes:keywords>
+    </itunes:keywords>
+  </item>
+  
+  <item>
+    <title>1. bkkcast 始めます</title>
+    <itunes:author>bkkcast</itunes:author>
+    <itunes:summary>@tamanyan55 @tejitak bkkcast はフィードバックを積極的に受け付けています。聞いてみたいことがあれば質問箱まで連絡ください！ お品書き 自己紹介 @tamanyan55 (バンコクで働くエンジニ</itunes:summary>
+    <enclosure url="https://bkkcast.me/mp3/20180715.mp3" length="" type="audio/mp3" />
+    <guid>https://bkkcast.me/001/</guid>
+    <pubDate>2018-07-15 00:00:00 &#43;0000 UTC</pubDate>
+    <itunes:duration></itunes:duration>
+    <itunes:keywords>
+    </itunes:keywords>
+  </item>
+  
+
+</channel>
+
+</rss>
