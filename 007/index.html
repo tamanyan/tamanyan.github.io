@@ -11,6 +11,11 @@
   <meta name="description" content="@tamanyan55 @kengaogaoasia @masumi_sugae bkkcast はフィードバックを積極的に受け付けています、聞いてみたいことがあれば質問箱まで連絡ください！ お品書き @masumi_sugae の自己紹介 (0:40) 学生エンジニア 大学">
   <meta name="author" content="bkkcast">
   
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjp.css" rel="stylesheet">
   <link href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
   
@@ -203,6 +208,12 @@
         target.currentTime = parseInt(e.target.hash.replace("#", ""));
       } catch (e) { }
     });
+  });
+
+  $(function() {
+    $('audio,video').mediaelementplayer({ success: function(player, node) {
+      console.log("sss");
+    } });
   });
 </script>
 
